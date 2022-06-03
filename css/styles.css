@@ -3583,7 +3583,7 @@ textarea.form-control-lg {
 .nav-link-tour {
     display: block;
     padding: 0.5rem 1rem;
-    color: #fffc80;
+    color: purple;
     text-decoration: none;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
@@ -3591,7 +3591,7 @@ textarea.form-control-lg {
 .nav-link-tour:hover {
     display: block;
     padding: 0.5rem 1rem;
-    color: orange;
+    color: #FFFACD;
     text-decoration: underline;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
@@ -10625,9 +10625,9 @@ p {
   font-style: "Roboto Mono", monospace;
 }
 
-/*.page-section {
-  padding: 8rem;
-} L'HO TOLTO PER I DEVICE PICCOLI!*/
+b {
+  font-weight: normal !important;
+}
 
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
@@ -10668,12 +10668,14 @@ p {
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
-  font-size: 0.75rem;
+  font-size: 1rem;
   font-family: "Roboto Mono", monospace;
   text-transform: uppercase;
   font-weight: 700;
-  color: #ffc800;
-  border-color: #ffc800 !important;
+  color: purple;
+  border-color: orange;
+  border-width: 0.3rem;
+  background-color: #ffc800;
 }
 #mainNav .navbar-brand {
   color: #ffc800;
@@ -10686,23 +10688,21 @@ p {
   height: 1.5rem;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Century Gothic";
   font-size: 0.95rem;
-  color: lightyellow;
-  color: #F0E68C;
+  color: purple;
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #ffc800;
+  color: #a44edfff;
   text-decoration: underline;
 }
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 1.3rem;
-    padding-bottom: 1.3rem;
-    border: -4px;
-    background-color: transparent;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    background-color: #ffc566ae;
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
@@ -10716,7 +10716,7 @@ p {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #212529;
+    background-color: #ffc566ff;
   }
 
   #mainNav.navbar-shrink .navbar-brand {
@@ -10739,7 +10739,7 @@ header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
-  color:#FFFACD;
+  color: #FFFACD;
   background-image: url("../assets/img/home.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10758,6 +10758,8 @@ header.masthead .masthead-heading {
 header.masthead .masthead-subheading {
   font-size: 1.7em;
   margin-bottom: 35px;
+  background-color: orange;
+  color: purple !important;
   font-family: "Roboto Mono", monospace;
 }
 
@@ -10777,7 +10779,9 @@ header.masthead-tour {
 header.masthead-tour .masthead-subheading-tour {
   font-size: 1.7em;
   margin-top: 25px;
+  color: purple !important;
   font-family: "Roboto Mono", monospace;
+  background-color: orange;
 }
 
 header.masthead-tour .masthead-heading-tour {
@@ -10786,7 +10790,6 @@ header.masthead-tour .masthead-heading-tour {
   line-height: 45px;
   margin-top: 10rem;
   font-family: "Roboto Mono", monospace;
-  background-color: orange;
 }
 
 /*Verdi*/
@@ -10805,16 +10808,18 @@ header.masthead-11 {
 header.masthead-11 .masthead-subheading-11 {
   font-size: 1.7em;
   margin-top: 25px;
+  color: purple !important;
   font-family: "Roboto Mono", monospace;
+  background-color: orange;
 }
 
 header.masthead-11 .masthead-heading-11 {
   font-size: 3.25rem;
   font-weight: 700;
   line-height: 45px;
+  background-color: orange;
   margin-top: 10rem;
   font-family: "Roboto Mono", monospace;
-  background-color: orange;
 }
 
 /*Tour1*/
@@ -10833,16 +10838,18 @@ header.masthead-1 {
 header.masthead-1 .masthead-subheading-1 {
   font-size: 1.7em;
   margin-top: 25px;
+  color: purple !important;
   font-family: "Roboto Mono", monospace;
+  background-color: orange;
 }
 
 header.masthead-1 .masthead-heading-1 {
   font-size: 3.25rem;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 45px;
   margin-top: 10rem;
-  font-family: "Roboto Mono", monospace;
   background-color: orange;
+  font-family: "Roboto Mono", monospace;
 }
 
 /*Tour2*/
@@ -10861,16 +10868,18 @@ header.masthead-2 {
 header.masthead-2 .masthead-subheading-2 {
   font-size: 1.7em;
   margin-top: 25px;
+  color: purple !important;
   font-family: "Roboto Mono", monospace;
+  background-color: orange;
 }
 
 header.masthead-2 .masthead-heading-2 {
   font-size: 3.25rem;
   font-weight: 700;
   line-height: 45px;
+  background-color: orange;
   margin-top: 10rem;
   font-family: "Roboto Mono", monospace;
-  background-color: orange;
 }
 
 
@@ -10890,16 +10899,18 @@ header.masthead-3 {
 header.masthead-3 .masthead-subheading-3 {
   font-size: 1.7em;
   margin-top: 25px;
+  color: purple !important;
   font-family: "Roboto Mono", monospace;
+  background-color: orange;
 }
 
 header.masthead-3 .masthead-heading-3 {
   font-size: 3.25rem;
   font-weight: 700;
   line-height: 45px;
+  background-color: orange;
   margin-top: 10rem;
   font-family: "Roboto Mono", monospace;
-  background-color: orange;
 }
 
 
@@ -10919,7 +10930,9 @@ header.masthead-4 {
 header.masthead-4 .masthead-subheading-4 {
   font-size: 1.7em;
   margin-top: 25px;
+  color: purple !important;
   font-family: "Roboto Mono", monospace;
+  background-color: orange;
 }
 
 header.masthead-4 .masthead-heading-4 {
@@ -10927,8 +10940,8 @@ header.masthead-4 .masthead-heading-4 {
   font-weight: 700;
   line-height: 45px;
   margin-top: 10rem;
-  font-family: "Roboto Mono", monospace;
   background-color: orange;
+  font-family: "Roboto Mono", monospace;
 }
 
 
@@ -10948,16 +10961,18 @@ header.masthead-5 {
 header.masthead-5 .masthead-subheading-5 {
   font-size: 1.7em;
   margin-top: 25px;
+  color: purple !important;
   font-family: "Roboto Mono", monospace;
+  background-color: orange;
 }
 
 header.masthead-5 .masthead-heading-5 {
   font-size: 3.25rem;
   font-weight: 700;
   line-height: 45px;
+  background-color: orange;
   margin-top: 10rem;
   font-family: "Roboto Mono", monospace;
-  background-color: orange;
 }
 
 
@@ -10977,7 +10992,9 @@ header.masthead-6 {
 header.masthead-6 .masthead-subheading-6 {
   font-size: 1.7em;
   margin-top: 25px;
+  color: purple !important;
   font-family: "Roboto Mono", monospace;
+  background-color: orange;
 }
 
 header.masthead-6 .masthead-heading-6 {
@@ -10985,8 +11002,8 @@ header.masthead-6 .masthead-heading-6 {
   font-weight: 700;
   line-height: 45px;
   margin-top: 10rem;
-  font-family: "Roboto Mono", monospace;
   background-color: orange;
+  font-family: "Roboto Mono", monospace;
 }
 
 
@@ -11006,7 +11023,9 @@ header.masthead-7 {
 header.masthead-7 .masthead-subheading-7 {
   font-size: 1.7em;
   margin-top: 25px;
+  color: purple !important;
   font-family: "Roboto Mono", monospace;
+  background-color: orange;
 }
 
 header.masthead-7 .masthead-heading-7 {
@@ -11014,8 +11033,8 @@ header.masthead-7 .masthead-heading-7 {
   font-weight: 700;
   line-height: 45px;
   margin-top: 10rem;
-  font-family: "Roboto Mono", monospace;
   background-color: orange;
+  font-family: "Roboto Mono", monospace;
 }
 
 
@@ -11035,7 +11054,9 @@ header.masthead-8 {
 header.masthead-8 .masthead-subheading-8 {
   font-size: 1.7em;
   margin-top: 25px;
+  color: purple !important;
   font-family: "Roboto Mono", monospace;
+  background-color: orange;
 }
 
 header.masthead-8 .masthead-heading-8 {
@@ -11043,8 +11064,8 @@ header.masthead-8 .masthead-heading-8 {
   font-weight: 700;
   line-height: 45px;
   margin-top: 10rem;
-  font-family: "Roboto Mono", monospace;
   background-color: orange;
+  font-family: "Roboto Mono", monospace;
 }
 
 
@@ -11064,7 +11085,9 @@ header.masthead-9 {
 header.masthead-9 .masthead-subheading-9 {
   font-size: 1.7em;
   margin-top: 25px;
+  color: purple !important;
   font-family: "Roboto Mono", monospace;
+  background-color: orange;
 }
 
 header.masthead-9 .masthead-heading-9 {
@@ -11073,7 +11096,6 @@ header.masthead-9 .masthead-heading-9 {
   line-height: 45px;
   margin-top: 10rem;
   font-family: "Roboto Mono", monospace;
-  background-color: orange;
 }
 
 
