@@ -2579,9 +2579,9 @@ textarea.form-control-lg {
 }
 
 .btn-dark {
-  color: white;
-  background-color: #212529;
-  border-color: #212529;
+  color: purple !important;
+  background-color: orange !important;
+  border-color: orange !important;
 }
 
 .btn-dark:hover {
@@ -5146,15 +5146,12 @@ textarea.form-control-lg {
 
 .carousel-item-next, .carousel-item-prev, .carousel-item.active {
     display: block;
-
 }
 
 .carousel-item {
     position: relative;
     display: none;
     float: left;
-    /*width: 100%;
-    margin-right: -100%;*/
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transition: transform .6s ease-in-out;
@@ -5170,7 +5167,6 @@ textarea.form-control-lg {
     margin-left: 3px;
     text-indent: -999px;
     cursor: pointer;
-    /*background-color: orange !important;*/
     background-clip: padding-box;
     border: 0;
     border-top: 10px solid transparent;
@@ -10316,7 +10312,6 @@ body {
 
 p {
   line-height: 1.75;
-  font-style: "Roboto Mono", monospace;
 }
 
 b {
@@ -10333,7 +10328,6 @@ b {
   font-size: 1rem;
   font-weight: 400;
   font-family: "Roboto Mono", monospace;
-  color: orange;
 }
 
 }
@@ -10430,7 +10424,7 @@ b {
 
 
 .imdoc {
-  width: 50% !important;
+  width: 30% !important;
 }
 
 img {
@@ -10457,12 +10451,14 @@ header.masthead .masthead-heading {
     line-height: 4.5rem;
     margin-bottom: 4rem;
     font-family: "Roboto Mono", monospace;
+    text-shadow: 3px 0px 0px #fe8a00;
   }
 
 header.masthead .masthead-subheading {
   font-size: 1.7em;
   margin-bottom: 35px;
   background-color: orange;
+  text-shadow: 2px 1px 0px #fe8a00;
   color: purple !important;
   font-family: "Roboto Mono", monospace;
 }
@@ -10485,15 +10481,18 @@ header.masthead-tour .masthead-subheading-tour {
   margin-top: 25px;
   color: purple !important;
   font-family: "Roboto Mono", monospace;
+  text-shadow: 2px 1px 0px #fe8a00;
   background-color: orange;
 }
 
 header.masthead-tour .masthead-heading-tour {
-  font-size: 3.25rem;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 45px;
   margin-top: 10rem;
+  background-color: #ffc566ae;
   font-family: "Roboto Mono", monospace;
+  text-shadow: 3px 0px 0px #fe8a00;
 }
 
 /*Verdi*/
@@ -10514,16 +10513,18 @@ header.masthead-11 .masthead-subheading-11 {
   margin-top: 25px;
   color: purple !important;
   font-family: "Roboto Mono", monospace;
+  text-shadow: 2px 1px 0px #fe8a00;
   background-color: orange;
 }
 
 header.masthead-11 .masthead-heading-11 {
-  font-size: 3.25rem;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 45px;
-  background-color: orange;
+  background-color: #ffc566ae;
   margin-top: 10rem;
   font-family: "Roboto Mono", monospace;
+  text-shadow: 3px 0px 0px #fe8a00;
 }
 
 /*Tour1*/
@@ -10545,15 +10546,17 @@ header.masthead-1 .masthead-subheading-1 {
   color: purple !important;
   font-family: "Roboto Mono", monospace;
   background-color: orange;
+  text-shadow: 2px 1px 0px #fe8a00;
 }
 
 header.masthead-1 .masthead-heading-1 {
-  font-size: 3.25rem;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 45px;
   margin-top: 10rem;
-  background-color: orange;
+  background-color: #ffc566ae;
   font-family: "Roboto Mono", monospace;
+  text-shadow: 3px 0px 0px #fe8a00;
 }
 
 /*Tour2*/
@@ -10573,17 +10576,19 @@ header.masthead-2 .masthead-subheading-2 {
   font-size: 1.7em;
   margin-top: 25px;
   color: purple !important;
+  text-shadow: 2px 1px 0px #fe8a00;
   font-family: "Roboto Mono", monospace;
   background-color: orange;
 }
 
 header.masthead-2 .masthead-heading-2 {
-  font-size: 3.25rem;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 45px;
-  background-color: orange;
+  background-color: #ffc566ae;
   margin-top: 10rem;
   font-family: "Roboto Mono", monospace;
+  text-shadow: 3px 0px 0px #fe8a00;
 }
 
 
@@ -10604,17 +10609,19 @@ header.masthead-3 .masthead-subheading-3 {
   font-size: 1.7em;
   margin-top: 25px;
   color: purple !important;
+  text-shadow: 2px 1px 0px #fe8a00;
   font-family: "Roboto Mono", monospace;
   background-color: orange;
 }
 
 header.masthead-3 .masthead-heading-3 {
-  font-size: 3.25rem;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 45px;
-  background-color: orange;
+  background-color: #ffc566ae;
   margin-top: 10rem;
   font-family: "Roboto Mono", monospace;
+  text-shadow: 3px 0px 0px #fe8a00;
 }
 
 
@@ -10635,17 +10642,19 @@ header.masthead-4 .masthead-subheading-4 {
   font-size: 1.7em;
   margin-top: 25px;
   color: purple !important;
+  text-shadow: 2px 1px 0px #fe8a00;
   font-family: "Roboto Mono", monospace;
   background-color: orange;
 }
 
 header.masthead-4 .masthead-heading-4 {
-  font-size: 3.25rem;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 45px;
   margin-top: 10rem;
-  background-color: orange;
+  background-color: #ffc566ae;
   font-family: "Roboto Mono", monospace;
+  text-shadow: 3px 0px 0px #fe8a00;
 }
 
 
@@ -10667,16 +10676,18 @@ header.masthead-5 .masthead-subheading-5 {
   margin-top: 25px;
   color: purple !important;
   font-family: "Roboto Mono", monospace;
+  text-shadow: 2px 1px 0px #fe8a00;
   background-color: orange;
 }
 
 header.masthead-5 .masthead-heading-5 {
-  font-size: 3.25rem;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 45px;
-  background-color: orange;
+  background-color: #ffc566ae;
   margin-top: 10rem;
   font-family: "Roboto Mono", monospace;
+  text-shadow: 3px 0px 0px #fe8a00;
 }
 
 
@@ -10698,15 +10709,17 @@ header.masthead-6 .masthead-subheading-6 {
   margin-top: 25px;
   color: purple !important;
   font-family: "Roboto Mono", monospace;
+  text-shadow: 2px 1px 0px #fe8a00;
   background-color: orange;
 }
 
 header.masthead-6 .masthead-heading-6 {
-  font-size: 3.25rem;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 45px;
   margin-top: 10rem;
-  background-color: orange;
+  background-color: #ffc566ae;
+  text-shadow: 3px 0px 0px #fe8a00;
   font-family: "Roboto Mono", monospace;
 }
 
@@ -10727,17 +10740,19 @@ header.masthead-7 {
 header.masthead-7 .masthead-subheading-7 {
   font-size: 1.7em;
   margin-top: 25px;
+  text-shadow: 2px 1px 0px #fe8a00;
   color: purple !important;
   font-family: "Roboto Mono", monospace;
   background-color: orange;
 }
 
 header.masthead-7 .masthead-heading-7 {
-  font-size: 3.25rem;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 45px;
   margin-top: 10rem;
-  background-color: orange;
+  background-color: #ffc566ae;
+  text-shadow: 3px 0px 0px #fe8a00;
   font-family: "Roboto Mono", monospace;
 }
 
@@ -10760,16 +10775,18 @@ header.masthead-8 .masthead-subheading-8 {
   margin-top: 25px;
   color: purple !important;
   font-family: "Roboto Mono", monospace;
+  text-shadow: 2px 1px 0px #fe8a00;
   background-color: orange;
 }
 
 header.masthead-8 .masthead-heading-8 {
-  font-size: 3.25rem;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 45px;
   margin-top: 10rem;
-  background-color: orange;
+  background-color: #ffc566ae;
   font-family: "Roboto Mono", monospace;
+  text-shadow: 3px 0px 0px #fe8a00;
 }
 
 
@@ -10789,15 +10806,18 @@ header.masthead-9 {
 header.masthead-9 .masthead-subheading-9 {
   font-size: 1.7em;
   margin-top: 25px;
+  text-shadow: 2px 1px 0px #fe8a00;
   color: purple !important;
   font-family: "Roboto Mono", monospace;
   background-color: orange;
 }
 
 header.masthead-9 .masthead-heading-9 {
-  font-size: 3.25rem;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 45px;
+  background-color: #ffc566ae;
+  text-shadow: 3px 0px 0px #fe8a00;
   margin-top: 10rem;
   font-family: "Roboto Mono", monospace;
 }
@@ -10816,14 +10836,66 @@ header.masthead-12 {
 }
 
 header.masthead-12 .masthead-heading-12 {
-  font-size: 3.25rem;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 45px;
   margin-top: 10rem;
-  background-color: orange;
+  background-color: #ffc566ae;
+  text-shadow: 3px 0px 0px #fe8a00;
   font-family: "Roboto Mono", monospace;
 }
 
+/*Section*/
+section#contact form#contactForm .form-group {
+  margin-bottom: 1.5rem;
+}
+section#contact form#contactForm .form-group input,
+section#contact form#contactForm .form-group textarea {
+  padding: 1.25rem;
+}
+section#contact form#contactForm .form-group input.form-control {
+  height: auto;
+}
+section#contact form#contactForm .form-group-textarea {
+  height: 100%;
+}
+section#contact form#contactForm .form-group-textarea textarea {
+  height: 100%;
+  min-height: 10rem;
+}
+section#contact form#contactForm p.help-block {
+  margin: 0;
+}
+section#contact form#contactForm .form-control:focus {
+  border-color: #ffc800;
+  box-shadow: none;
+}
+section#contact form#contactForm ::-webkit-input-placeholder {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  color: #ced4da;
+}
+section#contact form#contactForm :-moz-placeholder {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  color: #ced4da;
+}
+section#contact form#contactForm ::-moz-placeholder {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  color: #ced4da;
+}
+section#contact form#contactForm :-ms-input-placeholder {
+  font-family: "Roboto Mono", monospace;
+  color: #ced4da;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.9rem;
+  font-family: "Roboto Mono", monospace;
+  background-color: #f8f9faff;
+}
 
 /*Media*/
   @media (min-width: 768px) {
@@ -10834,7 +10906,6 @@ header.masthead-12 .masthead-heading-12 {
 
 @media (min-width: 768px) {
   header.masthead-tour {
-    padding-top: 12rem;
     padding-bottom: 22rem;
   }
 
@@ -10901,57 +10972,5 @@ header.masthead-12 .masthead-heading-12 {
 @media (min-width: 768px) {
   header.masthead-12 {
     padding-top: 12rem;
-    padding-bottom: 22rem;
+    padding-bottom: 25rem;
   }
-
-/*Section*/
-section#contact form#contactForm .form-group {
-  margin-bottom: 1.5rem;
-}
-section#contact form#contactForm .form-group input,
-section#contact form#contactForm .form-group textarea {
-  padding: 1.25rem;
-}
-section#contact form#contactForm .form-group input.form-control {
-  height: auto;
-}
-section#contact form#contactForm .form-group-textarea {
-  height: 100%;
-}
-section#contact form#contactForm .form-group-textarea textarea {
-  height: 100%;
-  min-height: 10rem;
-}
-section#contact form#contactForm p.help-block {
-  margin: 0;
-}
-section#contact form#contactForm .form-control:focus {
-  border-color: #ffc800;
-  box-shadow: none;
-}
-section#contact form#contactForm ::-webkit-input-placeholder {
-  font-family: "Roboto Mono", monospace;
-  font-weight: 700;
-  color: #ced4da;
-}
-section#contact form#contactForm :-moz-placeholder {
-  font-family: "Roboto Mono", monospace;
-  font-weight: 700;
-  color: #ced4da;
-}
-section#contact form#contactForm ::-moz-placeholder {
-  font-family: "Roboto Mono", monospace;
-  font-weight: 700;
-  color: #ced4da;
-}
-section#contact form#contactForm :-ms-input-placeholder {
-  font-family: "Roboto Mono", monospace;
-  color: #ced4da;
-}
-
-.footer {
-  text-align: center;
-  font-size: 0.9rem;
-  font-family: "Roboto Mono", monospace;
-  background-color: #f8f9faff;
-}
